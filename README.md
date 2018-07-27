@@ -1,6 +1,6 @@
-# Pattern Extraction for Crypto. Prices with LSTM Seq2Seq and $k-$means
+# Pattern Extraction for Crypto. Prices with LSTM Seq2Seq and k-means
 
-Implements a LSTM Composite structure as described in [1] by combining an autoencoder and predictor (Seq2Seq). Our model utilizes a Seq2Seq guided training in the predictor model instead of the conditioned training described. We further experimented with $k-$means clustering on extracted market patterns through a $n-$day window.
+Implements a LSTM Composite structure as described in [1] by combining an autoencoder and predictor (Seq2Seq). Our model utilizes a Seq2Seq guided training in the predictor model instead of the conditioned training described. We further experimented with k-means clustering on extracted market patterns through a $n-$day window.
 
 ## Getting Started
 
