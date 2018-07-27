@@ -7,17 +7,18 @@ The following are the required packages to run the models.
 
 ### Prerequisites
 
-Python 2.7x
-Numpy
-Pandas
-Tensorflow 1.8.0-rc1
-ccxt (optional: retrieve Cryoti prices)
+Python 2.7x<br />
+Numpy<br />
+Pandas<br />
+Tensorflow 1.x.x (note: code written for TF 1.8.0)<br />
+Scikit-Learn<br />
+ccxt (optional: retrieve Crypto prices)
 ### Installing
 
 
 
 ```
-pip install numpy pandas tensorflow
+pip install numpy pandas tensorflow sklearn
 ```
 In addition if you want to use ccxt to retrieve prices
 
@@ -25,20 +26,23 @@ In addition if you want to use ccxt to retrieve prices
 pip install ccxt
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
 
+### Saved Models
+In addition you can use this checkpoint file to initialize your model for the demo (more checkpoints to come). <br />
+The model is trained on ```load_OHLC_no_vol()``` with ```hidden_size=[128], encoder_steps=24, decoder_steps=24```.
 
 
 
 
 ## Built With
 
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [TensorFlow](https://github.com/tensorflow/tensorflow)
+* [Scikit-Learn](https://github.com/scikit-learn/scikit-learn)
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
+## References
 
-* https://arxiv.org/pdf/1502.04681.pdf
+* [1] https://arxiv.org/pdf/1502.04681.pdf
