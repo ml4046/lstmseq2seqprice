@@ -7,10 +7,10 @@ The following are the required packages to run the models.
 
 ### Prerequisites
 
-Python 2.7x
-Numpy
-Pandas
-Tensorflow 1.8.0-rc1
+Python 2.7x<br />
+Numpy<br />
+Pandas<br />
+Tensorflow 1.8.0-rc1<br />
 ccxt (optional: retrieve Cryoti prices)
 ### Installing
 
@@ -33,12 +33,13 @@ End with an example of getting some data out of the system or using it for a lit
 
 ## Built With
 
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [TensorFlow](https://github.com/tensorflow/tensorflow)
+* [Scikit-Learn](https://github.com/scikit-learn/scikit-learn)
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
+## References
 
-* https://arxiv.org/pdf/1502.04681.pdf
+* [1] https://arxiv.org/pdf/1502.04681.pdf
