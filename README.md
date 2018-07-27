@@ -1,4 +1,4 @@
-# Pattern Extraction and Price Forecasting with LSTM and k-means
+# Signal Extraction and Price Forecasting with LSTM and k-means
 
 Implements a LSTM Composite model in TensorFlow described in [1] by combining an autoencoder and a Seq2Seq for its predictor. Extracted n-day market pattern using k-means from Scikit-Learn. 
 
@@ -14,9 +14,6 @@ Tensorflow 1.x.x (note: code written for TF 1.8.0)<br />
 Scikit-Learn<br />
 ccxt (optional: retrieve Crypto prices)
 ### Installing
-
-
-
 ```
 pip install numpy pandas tensorflow sklearn
 ```
@@ -28,7 +25,7 @@ pip install ccxt
 
 
 ### Saved Models
-In addition you can use this checkpoint file to initialize your model for the demo (more checkpoints to come). <br />
+In addition you can use this [checkpoint](https://www.dropbox.com/s/dcxktu8bsvwuxga/btcusd-ckpts.zip?dl=0) to initialize your model for the demo (more checkpoints to come). <br />
 The model is trained on ```load_OHLC_no_vol()``` with ```hidden_size=[128], encoder_steps=24, decoder_steps=24```.
 
 
