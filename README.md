@@ -25,8 +25,10 @@ In addition if you want to use ccxt to retrieve prices
 pip install ccxt
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
 
+### Saved Models
+In addition you can use this checkpoint file to initialize your model for the demo (more checkpoints to come)
+The model is trained on ```load_OHLC_no_vol()``` with ```hidden_size=[128], encoder_steps=24, decoder_steps=24``` 
 
 
 
