@@ -1,6 +1,6 @@
 # Signal Extraction and Price Forecasting with LSTM and k-means
 
-Implements a LSTM Composite model in TensorFlow described in [1] by combining an autoencoder and a Seq2Seq for its predictor. Extracted n-day market pattern using k-means from Scikit-Learn. 
+LSTM Composite implementation in TensorFlow described in [1] by combining an autoencoder and a Seq2Seq for its predictor<br /> Extracted n-day market pattern using k-means from Scikit-Learn
 
 ## Getting Started
 The following are the required packages to run the models. 
