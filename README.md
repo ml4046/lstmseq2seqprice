@@ -10,7 +10,7 @@ The following are the required packages to run the models.
 Python 2.7x<br />
 Numpy<br />
 Pandas<br />
-Tensorflow 1.8.0-rc1<br />
+Tensorflow 1.x.x (note: code written for TF 1.8.0)<br />
 Scikit-Learn<br />
 ccxt (optional: retrieve Crypto prices)
 ### Installing
