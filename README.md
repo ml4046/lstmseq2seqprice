@@ -11,7 +11,7 @@ Python 2.7x<br />
 Numpy<br />
 Pandas<br />
 Tensorflow 1.8.0-rc1<br />
-ccxt (optional: retrieve Cryoti prices)
+ccxt (optional: retrieve Crypto prices)
 ### Installing
 
 
