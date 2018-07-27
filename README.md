@@ -11,13 +11,14 @@ Python 2.7x<br />
 Numpy<br />
 Pandas<br />
 Tensorflow 1.8.0-rc1<br />
+Scikit-Learn<br />
 ccxt (optional: retrieve Crypto prices)
 ### Installing
 
 
 
 ```
-pip install numpy pandas tensorflow
+pip install numpy pandas tensorflow sklearn
 ```
 In addition if you want to use ccxt to retrieve prices
 
