@@ -27,8 +27,8 @@ pip install ccxt
 
 
 ### Saved Models
-In addition you can use this checkpoint file to initialize your model for the demo (more checkpoints to come)
-The model is trained on ```load_OHLC_no_vol()``` with ```hidden_size=[128], encoder_steps=24, decoder_steps=24``` 
+In addition you can use this checkpoint file to initialize your model for the demo (more checkpoints to come). <br />
+The model is trained on ```load_OHLC_no_vol()``` with ```hidden_size=[128], encoder_steps=24, decoder_steps=24```.
 
 
 
