@@ -1,0 +1,7 @@
+numpy==1.14.5
+tensorflow==1.8.0
+scikit-learn==0.19.2
+pandas==0.23.4
+jupyter==1.0.0
+matplotlib==2.2.2
+ccxt==1.17.390
