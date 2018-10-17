@@ -5,33 +5,19 @@ LSTM Composite implementation in TensorFlow described in [1] by combining an aut
 ## Getting Started
 The following are the required packages to run the models. 
 
-### Prerequisites
-
-Python 2.7x<br />
-Numpy<br />
-Pandas<br />
-Tensorflow 1.x.x (note: code written for TF 1.8.0)<br />
-Scikit-Learn<br />
-ccxt (optional: retrieve Crypto prices)
-Matplotlib (optional: plotting)
 ### Installing
+We recommend setting up a virtual environment with Python > 2.7.x (tested on 2.7.10):
 ```
-pip install numpy pandas matplotlib tensorflow sklearn
+virtualenv -p python venv
+source venv/bin/activate
 ```
-In addition if you want to use ccxt to retrieve prices
-
+Install all required packages by running:
 ```
-pip install ccxt
+pip install -r requirements.txt
 ```
-
-
 ### Saved Models
 In addition you can use this [checkpoint](https://www.dropbox.com/s/dcxktu8bsvwuxga/btcusd-ckpts.zip?dl=0) to initialize your model for the demo (more checkpoints to come). <br />
 The model is trained on ```load_OHLC_no_vol()``` with ```hidden_size=[128], encoder_steps=24, decoder_steps=24```.
-
-
-
-
 ## Built With
 
 * [TensorFlow](https://github.com/tensorflow/tensorflow)
