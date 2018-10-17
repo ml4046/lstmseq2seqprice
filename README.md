@@ -19,8 +19,8 @@ Run the notebooks with `jupyter notebook`
 ### Saved Models
 In addition you can use this [checkpoint](https://www.dropbox.com/s/dcxktu8bsvwuxga/btcusd-ckpts.zip?dl=0) to initialize your model for the demo (more checkpoints to come). <br />
 The model is trained on ```load_OHLC_no_vol()``` with ```hidden_size=[128], encoder_steps=24, decoder_steps=24```.<br />
-Additional data is required for kmeans-demo.ipynb and available upon request.
 
+Additional data is required for kmeans-demo.ipynb and available upon request.
 ## Built With
 
 * [TensorFlow](https://github.com/tensorflow/tensorflow)
